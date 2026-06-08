@@ -1,4 +1,4 @@
-# Phoenix-MD
+mute# Phoenix-MD
 
 > [!CAUTION]
 > ### **LEGAL NOTICE & TERMS OF USE**
@@ -16,7 +16,7 @@
   <a href="https://youtube.com/channel/UCLUS9v7q4JagAqIJ3eeMM8w">
     <img alt="Phoenix-MD-Bot" width="350" src="https://i.ibb.co/tHWJrz3/IMG-20231128-WA0005.jpg" style="border-radius: 15px; border: 2px solid #F710B1;">
   </a> 
-</p>
+</p> group admin
 
 <p align="center">
   <strong>Phoenix-MD-Bot: A powerful, feature-rich WhatsApp Multi-Device Bot.</strong>
