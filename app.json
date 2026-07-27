@@ -9,7 +9,7 @@
 
   "env": {
     "SESSION_ID": {
-      "description": "Enter Your Session ID Which You Received From The Pairing Code",
+      "description": " Your Sessin ID Which You Received From The Pairing Code",
       "required": true
     },
 
