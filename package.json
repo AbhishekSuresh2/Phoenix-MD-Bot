@@ -8,7 +8,7 @@
         "start": "node index.js"
     },
     "engines": {
-        "node": "20.x"
+        "node": ">=20"
     },
     "keywords": [
         "scbot",
@@ -61,6 +61,7 @@
         "sequelize": "^6.21.4",
         "simple-git": "^3.20.0",
         "uuid": "^11.0.3",
-        "wa-sticker-formatter": "^4.4.4"
+        "wa-sticker-formatter": "^4.4.4",
+        "qrcode-terminal": "^0.12.0"
     }
 }
