@@ -5,12 +5,11 @@
     "main": "index.js",
     "type": "commonjs",
     "scripts": {
-        "start": "pm2 start index.js --attach --name Phoenix-MD",
-        "stop": "pm2 stop Phoenix-MD"
+        "start": "node index.js"
     },
     "engines": {
         "node": "20.x"
-    }, 
+    },
     "keywords": [
         "scbot",
         "termuxbot",
@@ -21,8 +20,6 @@
         "WhatsApp bot",
         "automation",
         "chatbot",
-        "nodejs",
-        "messenger",
         "AI",
         "npm",
         "baileys",
