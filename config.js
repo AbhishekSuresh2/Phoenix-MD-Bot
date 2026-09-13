@@ -7,7 +7,7 @@ if (fs.existsSync('config.env')) {
   });
 };
 
-const toBool = (x) => (x && (x.toLowerCase() === 'true' || x.toLowerCase() === 'on')) || false;
+ const toBool = (x) => (x && (x.toLowerCase() === 'true' || x.toLowerCase() === 'on')) || false;
 const DATABASE_URL = process.env.DATABASE_URL === undefined ? "./database.db" : process.env.DATABASE_URL
 
 module.exports = {
@@ -52,8 +52,8 @@ module.exports = {
   AUTO_STATUS_REPLY_MSG: process.env.AUTO_STATUS_REPLY_MSG || '_*Nice Status Bro 🍀*_',
   AUTO_STATUS_REACT: toBool(process.env.AUTO_STATUS_REACT || 'false'),
   AUTO_STATUS_REACT_EMOJIS: process.env.AUTO_STATUS_REACT_EMOJIS || ['💎','🤍','🍀','💀','📈','🎯','🫶','👀','☠️'],
-//_______________#OTHER(⚠️ Warning Dont Edit Anything Here)______________________________________________________________________________________
-  BASE_URL: 'https://abhi-api.vercel.app/', // Don't Change This
+//_______________#OTHER(⚠️ Warning Dont Edit Anything Here)____Phoenix~RebelValor__________________________________________________________________________________
+  BASE_URL: 'https://abhi-api.vercel.app/', // Don't Change Thishttps://whatsapp.com/channel/0029VbCDZhIJkK75WSjZNy1Z
   BRANCH: 'main',
   DATABASE: DATABASE_URL === "./database.db" ? new Sequelize({ dialect: "sqlite", storage: DATABASE_URL, logging: false }) : new Sequelize(DATABASE_URL, {dialect: "postgres", ssl: true, protocol: "postgres", dialectOptions: { native: true, ssl: { require: true, rejectUnauthorized: false },}, logging: false })
 };
